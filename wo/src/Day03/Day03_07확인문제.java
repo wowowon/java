@@ -1,74 +1,38 @@
 package Day03;
 
-import java.util.Scanner;
-
 public class Day03_07확인문제 { // c s
-
 	
 	public static void main(String[] args) { // m s
 		
-		// 공통 변수 [ 모든곳에서 사용할수 있는 변수 ]
-		boolean run = true; // 실행 여부 변수 / true=실행 false= 종료
-		
-		int balance = 0; // 예금액[통장안에 있는 금액] 변수
-		
-		Scanner scanner = new Scanner(System.in); // 입력객체
-		
-		while( run ) { // while( 조건식 ) { } : 무한루프
-			System.out.println("-----------------------------------");
-			System.out.println("1.예금 2.출금 3.잔고 4.종료");
-			System.out.println("-----------------------------------");
-			System.out.println("선택>");
-			
-			int 선택 = scanner.nextInt(); // 입력받은 값을 가져오기
-			
-			if( 선택 == 1 ) { // 만약에 입력값이 1 이면
-				System.out.print(" 예금액 : "); int 예금액 = scanner.nextInt();
-				balance += 예금액; // 입력받은 예금액을 통장에 추가 +
-				
-			}
-			else if( 선택 == 2 ) { // 만약에 입력값이 2 이면
-				System.out.print(" 출금액 : "); int 출금액 = scanner.nextInt();
-				
-				// 만약에 출금액이 예금액보다 더 크면 잔액부족
-				if( 출금액 > balance ) {System.out.println(" 알림) 잔액이 부족합니다."); }
-				// 아니면 출금실행
-				else { balance -= 출금액; } // 입력받은 출금액을 통장에서 빼기 -
-			}
-			else if( 선택 == 3 ) { // 만약에 입력값이 3 이면
-				System.out.println(" 잔고 : " + balance ); 
-			}
-			else if( 선택 == 4 ) { // 만약에 입력값이 4 이면
-				
-					break; // while 탈출 [ 무한루프 종료 ]
-			}
-
-		
-		
-		
-		
-		
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		// p.134 확인문제
+			// 1 :  if  , switch
+			// 		for , while , do~while
+			// 2. 2 
+			// 	 break; : 가장 가까운 { } 탈출 ( switch , for , while )
+			// 3.
+//				int sum = 0;
+//				for( int i = 0 ; i<=100; i+=3 ) {
+//					 sum += i;
+//				}
+			// 4. ~ 
+			// 5.  4x + 5y = 60   [ 해 : x와 y에 들어갈수 있는 수 찾기 ]
+				for( int x = 1 ; x<=10 ; x++ ) {
+					// * x는 1 부터 10까지 1씩 증가 실행 반복처리 
+					for( int y = 1 ; y<=10 ; y++ ) {
+						if( (4*x) + (5*y) == 60 ) {
+							System.out.println(x +" "+ y);
+						}
+					}
+				}
+			// 6.
+				for( int i = 1 ; i<=5 ; i++ ) {
+					// i는 1부터 5까지 1씩증가하면 실행 반복처리 
+					// i = 현재줄수 
+					for( int s = 1 ; s<=i ; s++ ) {
+						System.out.print("*"); // 별찍기 
+					}
+					System.out.println(); // 줄바꿈처리
+				}
 		
 	} // m e
-} // c e
+} // c s
