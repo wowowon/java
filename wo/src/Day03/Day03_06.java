@@ -124,12 +124,25 @@ public class Day03_06 { // c s
 					System.out.println();
 				}
 		
-		
 				// 별문제 9 
 				System.out.print("문제9) 줄수 : "); 
 				int line9 = scanner.nextInt();
 				
-				for(int i = 1 ; b<=line9 ; i++)
+				for(int i = 1 ; i<=line9 ; i++) {
+					// 1 . 공백찍기
+					for( int b= 1 ; b<=line9-i ; b++) {
+						System.out.print(" ");
+					}
+					// 2. 별찍기
+				for( int s = 1; s<=i*2-1 ; s++) {
+					System.out.print("*");
+				
+				    }
+					// 3. 줄바꿈
+					System.out.println();
+				}
+				
+				
 		
 		
 		
