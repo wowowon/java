@@ -33,10 +33,10 @@ public class Day03_04 { // c s
 		System.out.println("-----------------------------");
 		
 		switch ( 점수 ) {
-			case 90 : System.out.println("A등급");
-			case 80 : System.out.println("B등급");
-			case 70 : System.out.println("C등급");
-			default : System.out.println("탈락"); 
+			case 90 : System.out.println("A등급");	break;
+			case 80 : System.out.println("B등급");	break;
+			case 70 : System.out.println("C등급");	break;
+			default : System.out.println("탈락"); 		break;
 		}
 		
 		// 예2)
@@ -63,8 +63,8 @@ public class Day03_04 { // c s
 		// 예4)
 		String  직급 = "과장";
 		switch( 직급 ) { // 선택조건이 때문에 .equals 사용 x
-			case "부장" : System.out.println("700만원");
-			case "과장" : System.out.println("500만원");
+			case "부장" : System.out.println("700만원");		break;
+			case "과장" : System.out.println("500만원");		break;
 			default : System.out.println("300만원");
 		
 		}
@@ -79,8 +79,8 @@ public class Day03_04 { // c s
 		int 평균 = (국어+영어+수학)/3;
 		System.out.println(" 평균 : " + 평균 + " 나누기/10 : "+평균/10 );
 		switch( 평균/10 ) { // 1자리 제외
-			case 9 : System.out.println("A등급");
-			case 8 : System.out.println("B등급");
+			case 9 : System.out.println("A등급");	break;
+			case 8 : System.out.println("B등급");	break;
 			default : System.out.println("탈락");
 		} 
 		

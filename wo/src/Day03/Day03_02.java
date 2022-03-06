@@ -69,15 +69,17 @@ public class Day03_02 { // c s
 		System.out.print("정수2입력 : "); int 정수14 = scanner.nextInt();
 		System.out.print("정수3입력 : "); int 정수15 = scanner.nextInt();
 		System.out.print("정수4입력 : "); int 정수16 = scanner.nextInt();
-		if( 정수13 > 정수14 ) { int temp = 정수13; 정수13 = 정수14; 정수14 = temp; }
-		if( 정수13 > 정수15 ) { int temp = 정수13; 정수13 = 정수15; 정수15 = temp; }
-		if( 정수13 > 정수16 ) { int temp = 정수13; 정수13 = 정수16; 정수16 = temp; }
-		// 두번째 값 기준 으로 비교	
-		if( 정수14 > 정수15 ) { int temp = 정수14; 정수14 = 정수15; 정수15 = temp; }
-		if( 정수14 > 정수16 ) { int temp = 정수14; 정수14 = 정수16; 정수16 = temp; }
-		// 세번째 값 기준으로 비교
-		if( 정수15> 정수16 ) { int temp = 정수15; 정수15 = 정수16; 정수16 = temp; }
-		// 네번째 값 기준으로 비교 x	
+		// 첫번째 값 기준 으로 비교 
+		if( 정수13 > 정수14 ) { int temp = 정수13 ; 정수13 = 정수14; 정수14 = temp; }
+		if( 정수13 > 정수15 ) { int temp = 정수13 ; 정수13 = 정수15; 정수15 = temp; }
+		if( 정수13 > 정수16 ) { int temp = 정수13 ; 정수13 = 정수16; 정수16 = temp; }
+		// 두번째 값 기준 으로 비교 
+		if( 정수14 > 정수15 ) { int temp = 정수14 ; 정수14 = 정수15; 정수15 = temp; }
+		if( 정수14 > 정수16 ) { int temp = 정수14 ; 정수14 = 정수16; 정수16 = temp; }
+		// 세번째 값 기준 으로 비교 
+		if( 정수15 > 정수16 ) { int temp = 정수15 ; 정수15 = 정수16; 정수16 = temp; }
+		// 네번째 값 기준 으로 비교 x 
+		System.out.printf(" 오름차순 : %d %d %d %d " , 정수13 , 정수14 , 정수15 , 정수16 );
 	
 	
 	
