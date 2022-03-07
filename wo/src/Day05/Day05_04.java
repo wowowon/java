@@ -1,6 +1,6 @@
 package Day05;
 
-public class Day05_4_도서대여_2인과제 {
+public class Day05_04 {
 	
 	/*
 	사용문법 1. 입출력 2.변수/자료형/연산  3.제어/반복 4.제어/반복 5.배열
