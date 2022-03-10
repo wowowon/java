@@ -59,6 +59,11 @@ public class Day03_01 { // c s
 		else if ( 3>2 )System.out.println("예5) 3이 2보다 크다"); // 실행o
 		else System.out.println(" true 없다. "); // 실행x
 		
+		if( 3>5 )System.out.println("예5) 3이 5보다 크다");	// 실행x
+		if( 3>4 )System.out.println("예5) 3이 4보다 크다."); // 실행x
+		if( 3>3 )System.out.println("예5) 3이 3보다 크다."); // 실행x
+		if( 3>2 )System.out.println("예5) 3이 2보다 크다."); // 실행o
+		if( 3<2 )System.out.println(" true 없다."); // 실행x
 		
 		
 		

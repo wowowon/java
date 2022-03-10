@@ -2,6 +2,9 @@ package Day03;
 
 import java.util.Scanner;
 
+		//범위 주석처리 : 범위지정 + ctrl + / 
+			//				범위지정 + ctrl+shift + /
+
 public class Day03_03 { // c s
 
 	

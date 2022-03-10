@@ -4,6 +4,18 @@ import java.util.Scanner;
 
 public class DAY02_03 { // c s
 	public static void main(String[] args) { // m s
+		
+		// 문제1 : 급여 계산
+				/*
+				 * 	[입력조건]
+				 * 		기본급 , 수당
+				 * 	[ 조건 ] 
+				 * 		실수령액 = 기본급 + 수당 - 세금[기본급10%] 
+				 * 	[출력조건] 
+				 * 		실수령액 출력 
+				 */
+		
+		
 		// * 입력 -> 저장 -> 계산 -> 출력
 		// 1 . 입력 객체 만든다. [ 자료형 소문자 , 클래스명 대문자 ] 
 		Scanner scanner = new Scanner(System.in);

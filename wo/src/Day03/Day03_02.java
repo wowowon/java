@@ -28,7 +28,7 @@ public class Day03_02 { // c s
 		System.out.print("정수1입력 : "); int 정수3 = scanner.nextInt(); // 변수명 중복x
 		System.out.print("정수2입력 : "); int 정수4 = scanner.nextInt();
 		System.out.print("정수3입력 : "); int 정수5 = scanner.nextInt();
-		int max = 0;	// 가장 큰수를 저장하는 임시 저장
+		int max = 3;	// 가장 큰수를 저장하는 임시 저장
 			// max에 첫번째 값 넣어두기 .
 		if( max< 정수4 ) { max = 정수4; }{
 			// 만약에 max 보다 정수4가 더 크면 교체 max 교체
@@ -69,15 +69,17 @@ public class Day03_02 { // c s
 		System.out.print("정수2입력 : "); int 정수14 = scanner.nextInt();
 		System.out.print("정수3입력 : "); int 정수15 = scanner.nextInt();
 		System.out.print("정수4입력 : "); int 정수16 = scanner.nextInt();
-		if( 정수13 > 정수14 ) { int temp = 정수13; 정수13 = 정수14; 정수14 = temp; }
-		if( 정수13 > 정수15 ) { int temp = 정수13; 정수13 = 정수15; 정수15 = temp; }
-		if( 정수13 > 정수16 ) { int temp = 정수13; 정수13 = 정수16; 정수16 = temp; }
-		// 두번째 값 기준 으로 비교	
-		if( 정수14 > 정수15 ) { int temp = 정수14; 정수14 = 정수15; 정수15 = temp; }
-		if( 정수14 > 정수16 ) { int temp = 정수14; 정수14 = 정수16; 정수16 = temp; }
-		// 세번째 값 기준으로 비교
-		if( 정수15> 정수16 ) { int temp = 정수15; 정수15 = 정수16; 정수16 = temp; }
-		// 네번째 값 기준으로 비교 x	
+		// 첫번째 값 기준 으로 비교 
+		if( 정수13 > 정수14 ) { int temp = 정수13 ; 정수13 = 정수14; 정수14 = temp; }
+		if( 정수13 > 정수15 ) { int temp = 정수13 ; 정수13 = 정수15; 정수15 = temp; }
+		if( 정수13 > 정수16 ) { int temp = 정수13 ; 정수13 = 정수16; 정수16 = temp; }
+		// 두번째 값 기준 으로 비교 
+		if( 정수14 > 정수15 ) { int temp = 정수14 ; 정수14 = 정수15; 정수15 = temp; }
+		if( 정수14 > 정수16 ) { int temp = 정수14 ; 정수14 = 정수16; 정수16 = temp; }
+		// 세번째 값 기준 으로 비교 
+		if( 정수15 > 정수16 ) { int temp = 정수15 ; 정수15 = 정수16; 정수16 = temp; }
+		// 네번째 값 기준 으로 비교 x 
+		System.out.printf(" 오름차순 : %d %d %d %d " , 정수13 , 정수14 , 정수15 , 정수16 );
 	
 	
 	

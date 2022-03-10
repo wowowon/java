@@ -10,10 +10,10 @@ public class Day03_07확인문제 { // c s
 			// 2. 2 
 			// 	 break; : 가장 가까운 { } 탈출 ( switch , for , while )
 			// 3.
-//				int sum = 0;
-//				for( int i = 0 ; i<=100; i+=3 ) {
-//					 sum += i;
-//				}
+				int sum = 0;
+				for( int i = 0 ; i<=100; i+=3 ) {
+					 sum += i;
+				}
 			// 4. ~ 
 			// 5.  4x + 5y = 60   [ 해 : x와 y에 들어갈수 있는 수 찾기 ]
 				for( int x = 1 ; x<=10 ; x++ ) {
