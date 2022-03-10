@@ -99,7 +99,7 @@ public class Day07_05_BookApplication { // c s
 		if ( ch == 1) {book.도서검색();}
 		else if(ch ==2 ) {book.도서목록();}
 		else if(ch == 3) {book.도서대여( loginid );}
-		else if(ch == 4) {book.도서반납();}
+		else if(ch == 4) {book.도서반납( loginid );}
 		else if(ch == 5) {return;} // 일반회원메뉴 메소드 종료 [ 로그아웃 ]
 		else {System.out.println(" 알림)) 알수 없는 번호입니다. ");}
 		}	
