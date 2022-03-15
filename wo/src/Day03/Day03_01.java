@@ -66,7 +66,7 @@ public class Day03_01 { // c s
 		if( 3<2 )System.out.println(" true 없다."); // 실행x
 		
 		
-		
+	
 		
 		
 		
