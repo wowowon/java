@@ -1,4 +1,4 @@
-package 프로그래밍언어활용_김재웅_확장자;
+package 프로그래밍언어활용_;
 
 public class 학생 {
 
